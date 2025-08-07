@@ -1,0 +1,18 @@
+
+/* Botão dentro do form */
+.button  {
+  background-color: #007bff;   /* Azul limpo, combina com logo */
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.button:hover {
+  background-color:#0056b3;
+}

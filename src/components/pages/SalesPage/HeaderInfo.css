@@ -1,0 +1,34 @@
+.headerInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Centraliza verticalmente */
+  margin-bottom: 16px;
+  padding: 12px 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.headerStoreName {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerDate {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-top: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headerUser {
+  font-size: 18px;
+  font-weight: 500;
+  color: #34495e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}

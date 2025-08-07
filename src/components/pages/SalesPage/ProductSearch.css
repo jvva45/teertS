@@ -1,0 +1,50 @@
+.productSearch {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px;
+}
+
+.productSearch label {
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.productSearch input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.2s ease;
+}
+
+.productSearch input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.productSearch button {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.productSearch button:hover {
+  background-color: #27ae60;
+}

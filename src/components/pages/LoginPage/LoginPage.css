@@ -1,0 +1,20 @@
+/* LoginPage.css */
+.login-page {
+  height: 100vh;
+  background-color: #f5f7fa;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.login-page h1 {
+  color: #007bff;             /* Azul moderno (padrão Bootstrap) */
+  font-size: 50px;
+  font-weight: 600;           /* Menos pesado que bold total */
+  margin-bottom: 24px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;        /* Dá um respiro entre as letras */
+}

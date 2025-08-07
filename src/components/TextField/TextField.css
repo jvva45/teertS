@@ -1,0 +1,12 @@
+.text-field input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+
+}
+
+.teste{
+  color: #cccccc;
+  font-weight: 500;
+}

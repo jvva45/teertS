@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.name_form {
+  color: #1e1e2f;
+  font-size: 30px;
+  margin-bottom: 20px;
+ 
+
+}
+
+/* Grade com duas colunas para os campos */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* duas colunas iguais */
+  gap: 20px 40px;
+  /* espaçamento entre linhas e colunas */
+  align-items: end;
+}
+
+/* Campo de texto ocupa toda a largura da célula */
+.text-field {
+  width: 98%;
+}
+
+/* Estilo do label */
+.text-field label {
+  display: block;
+  margin-bottom: 0.2rem;
+
+}
+
+/* Estilo do input */
+.text-field input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Botão alinhado à direita na 2ª coluna */
+.form-button-container {
+  grid-column: 2 / 3;
+  /* Fica na segunda coluna */
+  justify-self: end;
+  /* Alinha à direita */
+  margin-top: 10px;
+
+}
+
+.form button {
+  width: 100px;
+  background-color: #28a745;
+  /* Verde sucesso */
+  color: white;
+
+}
+
+.form button:hover {
+  background-color: #34344a;
+  /* tom um pouco mais claro ao passar o mouse */
+}
