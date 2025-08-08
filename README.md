@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+🚀 ERP Comercial em React
+Um sistema ERP (Enterprise Resource Planning) moderno que está no início do desenvolvimento, criado em React para treinar e aprimorar minhas habilidades em HTML, CSS e React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+💡 Status do Projeto:
+Este projeto ainda não está finalizado — estou trabalhando diariamente nele.
+O objetivo inicial é criar toda a interface front-end com um design profissional e responsivo.
+Assim que a parte visual estiver concluída, vou desenvolver o backend para integrar todas as funcionalidades e transformá-lo em um sistema ERP completo.
 
-## Available Scripts
+✨ Visão Geral
+O ERP Comercial em React é uma aplicação web responsiva para gerenciamento de clientes, produtos, vendas e estoque.
+Por enquanto, o foco está em:
 
-In the project directory, you can run:
+📱 Criar uma UI moderna e responsiva
 
-### `npm start`
+🎨 Aplicar boas práticas de CSS e HTML
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⚛️ Utilizar React com componentes reutilizáveis
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🛠️ Tecnologias Utilizadas
+React – Biblioteca para construção de interfaces modernas
 
-### `npm test`
+JavaScript (ES6+) – Linguagem principal
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+HTML5 / CSS3 – Estrutura e estilo
 
-### `npm run build`
+Node.js – Ambiente de execução JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm / yarn – Gerenciadores de pacotes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📦 Estrutura e Componentes (até agora)
+🔹 Principais Arquivos
+App.js – Estrutura central da aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CustomerContext.js – Gerenciamento de dados de clientes via Context API
 
-### `npm run eject`
+Dashboard – Painel de métricas e atalhos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+useAuth.js – Hook customizado para autenticação
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📄 Páginas Implementadas
+CustomerPage – Cadastro e edição de clientes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+DashboardHome – Resumo rápido das operações
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+LoginPage – Tela de autenticação
 
-## Learn More
+ProductPage – Gestão de produtos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+SalesPage – Página de vendas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+StockPage – Controle de estoque
 
-### Code Splitting
+🚀 Como Rodar o Projeto
+bash
+Copiar
+Editar
+# Clone o repositório
+git clone https://github.com/jvva45/teertS.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Instale as dependências
+npm install
 
-### Analyzing the Bundle Size
+# Inicie o servidor de desenvolvimento
+npm start
+O app estará disponível em http://localhost:3000 ✅
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🏗️ Próximos Passos
+ Finalizar todas as telas do front-end
 
-### Making a Progressive Web App
+ Melhorar a responsividade no mobile
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ Integrar com backend próprio (Node.js/Express)
 
-### Advanced Configuration
+ Implementar banco de dados e autenticação real
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📄 Licença
+Este projeto está licenciado sob a Licença MIT – sinta-se à vontade para estudar e contribuir!
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
