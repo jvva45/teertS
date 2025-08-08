@@ -28,7 +28,9 @@ Node.js – Ambiente de execução JavaScript
 npm / yarn – Gerenciadores de pacotes
 
 📦 Estrutura e Componentes (até agora)
+
 🔹 Principais Arquivos
+
 App.js – Estrutura central da aplicação
 
 CustomerContext.js – Gerenciamento de dados de clientes via Context API
